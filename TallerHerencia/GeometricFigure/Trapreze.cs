@@ -30,7 +30,7 @@ namespace GeometricFigure
         private void ValidateD(double value)
         {
             if (value <= 0)
-                throw new Exception("El lado debe ser mayor que cero.");
+                throw new Exception("The side must be greater than zero.");
         }
 
     }

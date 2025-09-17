@@ -41,12 +41,12 @@ namespace GeometricFigure
         private void ValidateC(double value)
         {
             if (value <= 0)
-                throw new Exception("El lado debe ser mayor que cero.");
+                throw new Exception("The side must be greater than zero.");
         }
         private void ValidateH(double value)
         {
             if (value <= 0)
-                throw new Exception("La altura debe ser mayor que cero.");
+                throw new Exception("The height must be greater than zero.");
         }
 
     }

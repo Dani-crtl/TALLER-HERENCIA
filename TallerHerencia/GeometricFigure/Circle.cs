@@ -25,7 +25,7 @@ namespace GeometricFigure
 
         private void ValidateR(double r)
         {
-          if (r <= 0) throw new ArgumentException("Radius must be positive.");
+          if (r <= 0) throw new ArgumentException("the radius must be greater than or equal to zero.");
         }
 
         public override double GetArea() => Math.PI * _r * _r;

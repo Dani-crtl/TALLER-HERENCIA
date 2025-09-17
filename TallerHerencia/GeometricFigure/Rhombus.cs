@@ -38,14 +38,14 @@ namespace GeometricFigure
         private double ValidateD1(double value)
         {
             if (value <= 0)
-                throw new Exception("La diagonal debe ser mayor que cero.");
+                throw new Exception("The diagonal must be greater than zero.");
 
             return value;
         }
         private double ValidateD2(double value)
         {
             if (value <= 0)
-                throw new Exception("La diagonal debe ser mayor que cero.");
+                throw new Exception("The diagonal must be greater than zero.");
             return value;
         }
     }
